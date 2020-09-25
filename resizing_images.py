@@ -4,8 +4,8 @@ from PIL import Image
 # image.show()
 
 
-image = Image.open('originals\IMG_0633.jpeg')
-image.thumbnail((1200, 1800))
-image.save('image_thumbnail.jpeg')
+image = Image.open('originals\IMG_0639.jpeg')
+image.thumbnail((2400, 2400))
+image.save('image_thumbnail.png')
 
 print(image.size)  # Output: (400, 258)
